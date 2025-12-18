@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Web Vulnerability Scanner",
+  "version": "1.0",
+  "description": "Scan websites for SQL Injection and XSS vulnerabilities",
+  "permissions": ["tabs", "activeTab"],
+  "host_permissions": [
+    "http://localhost:5000/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
